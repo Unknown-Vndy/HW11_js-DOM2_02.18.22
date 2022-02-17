@@ -1,0 +1,70 @@
+.newsList{
+   margin: 10px auto;
+   max-width: 1200px;
+}
+.newsItem{
+   box-shadow: 0px 0px 20px -4px rgba(34, 60, 80, 0.37);
+}
+
+.headerBgContainer {
+   position: relative;
+   color: white;
+}
+
+.headerBg {
+   width: 100%;
+   max-height: 150px;
+}
+
+.newsTitle{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   padding: 10px;
+   text-align: center;
+}
+
+.newsButtons{
+   display: flex;
+   position: absolute;
+   top: 10px;
+   right: 30px;
+   font-size: 40px;
+   gap: 10px;
+}
+
+.news__button {
+   border: 1px solid white;
+   padding: 15px;
+   border-radius: 50%;
+   cursor: pointer;
+}
+
+.isLiked {
+   color: rgb(224, 120, 120);
+   border-color: rgb(224, 120, 120);
+}
+
+.newsBody{
+   padding: 10px;
+}
+.newsCategory {
+   padding-top: 20px;
+   margin-bottom: 20px;
+   color: grey;
+}
+
+.newsInfo{
+   line-height: 150%;
+}
+
+.newsDate{
+   text-align: right;
+   margin: 20px 0;
+   color: grey;
+}
+
+.newsItem:not(:last-child){
+   margin-bottom: 15px;
+}
